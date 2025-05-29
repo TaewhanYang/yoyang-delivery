@@ -1,26 +1,50 @@
-# 요양원 배송 시스템
+# Welcome to your Expo app 👋
 
-직원 앱 + 관리자 대시보드 기반 내부 전용 배송 관리 시스템입니다.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-# 🏥 요양원 배송 앱 (직원용)
+## Get started
 
-React Native + Expo 기반으로 만든 약국 직원용 내부 배송 앱입니다.
+1. Install dependencies
 
----
-
-## 📦 기능 요약
-
-- 직원 이름 입력
-- 요양원 검색 및 배송 루트 추가
-- 배송 완료 체크 (메모 & 사진 가능)
-- 운행 거리 수기 입력 + 인증 사진
-- Firebase 연동
-
----
-
-## 🚀 설치 방법
-
-1. Node.js 설치 → [https://nodejs.org](https://nodejs.org)
-2. Expo CLI 설치:
    ```bash
-   npm install -g expo-cli
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
